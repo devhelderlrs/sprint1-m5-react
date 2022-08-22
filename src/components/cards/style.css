@@ -21,30 +21,17 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
-.container-grid-app{
+.App .container-grid-app{
     text-align: center;
 }
 
-.container-cards-app{
+.App .container-cards-app{
     display: grid;
     justify-content: center;
     gap: 40px;
     text-align: center;
     align-items: center;
     grid-template-columns: 250px 250px 250px 250px;
-}
-
-.container-grid-email{
-    text-align: center;
-}
-
-.container-cards-email{
-    display: grid;
-    grid-template-columns: 250px 250px;
-    justify-content: center;
-    gap: 40px;
-    text-align: center;
-    align-items: center;
 }
 
 .container-cards img{
