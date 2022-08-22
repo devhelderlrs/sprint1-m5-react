@@ -1,0 +1,38 @@
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 50%;
+}
+
+form .lbl-form{
+    text-align: start;
+    margin-left: 50px;
+}
+
+form input{
+    width: 80%;
+    font-size: 12pt;
+    margin: 20px auto;
+    height: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+form .btn-radio{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+form .btn-radio input{
+    width: 20px;
+    margin: 20px auto;
+    border: 1px dotted;
+}
+
+form .btn-header{
+    border: 1px solid;
+}

@@ -1,0 +1,9 @@
+.para-form-app{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: auto;
+    margin: 0 auto 50px auto;
+}

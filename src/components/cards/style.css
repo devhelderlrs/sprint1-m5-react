@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;1,100&display=swap');
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+.container-grid-app{
+    text-align: center;
+}
+
+.container-cards-app{
+    display: grid;
+    justify-content: center;
+    gap: 40px;
+    text-align: center;
+    align-items: center;
+    grid-template-columns: 250px 250px 250px 250px;
+}
+
+.container-grid-email{
+    text-align: center;
+}
+
+.container-cards-email{
+    display: grid;
+    grid-template-columns: 250px 250px;
+    justify-content: center;
+    gap: 40px;
+    text-align: center;
+    align-items: center;
+}
+
+.container-cards img{
+    width: 100%;
+}
+
+.card-email{
+    margin: 20px 0;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.img-card-email{
+    height: 250px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.descricao-card-email{
+    margin: 5px 0;
+}
+
+.descricao-card-email h4, .descricao-card-email h3{
+    font-weight: bold;
+    font-size: 14pt;
+}
+
+.descricao-card-email p{
+    margin: 10px 0;
+    text-align: justify;
+}
+
+.descricao-card-email h6{
+    font-size: 10pt;
+}
+
+.descricao-card-email .preco-antigo{
+    text-decoration: line-through;
+    font-size: 12pt;
+}
+
+.btn-compra{
+    font-size: 14pt;
+    margin: 20px auto;
+    width: 200px;
+    padding: 5px 0;
+}
